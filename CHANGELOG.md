@@ -7,8 +7,8 @@
 
 ### Declaración del uso de herramientas de inteligencia artificial
 
-# REPORTE TÉCNICO DE EVALUACIÓN, VALIDACIÓN Y EXPERIMENTACIÓN DE MODELOS DE MACHINE LEARNING
-## Proyecto: Sistema Inteligente de Detección Temprana de Fraude en Canales Financieros Digitales (FraudShield AI)
+- **Herramientas:** Gemini, Google Colab y VS Code con Copilot.
+- **Propósito:** Ayuda en la generación del código, organización de ideas para la elaboración del README y CHANGELOG del reporte, y corrección de errores.
 
 ---
 
