@@ -4,12 +4,6 @@
 **Docente:** Luis Ariel Vazquez Piña  
 
 ---
-
-### Declaración del uso de herramientas de inteligencia artificial
-
-- **Herramientas:** Gemini, Google Colab y VS Code con Copilot.
-- **Propósito:** Ayuda en la generación del código, organización de ideas para la elaboración del README y CHANGELOG del reporte, y corrección de errores.
-
 Este repositorio contiene la solución completa de experimentación, evaluación rigurosa y validación estadística para la **Actividad 6** de la materia *Gestión de Proyectos de Inteligencia Artificial*. El proyecto aplica técnicas de Machine Learning supervisado en un contexto financiero crítico: la **detección y mitigación oportuna de transacciones fraudulentas en banca digital**.
 
 ---
