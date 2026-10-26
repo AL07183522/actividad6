@@ -178,12 +178,12 @@ La estratificación garantiza que en cada pliegue se preserve idéntica proporci
 
 ### 6.3 Métricas Agregadas e Intervalos de Confianza al 95%
 Calculados mediante la fórmula paramétrica de inferencia:
-$$IC_{95\%} = \bar{x} \pm z_{\alpha/2} \cdot \left(\frac{s}{\sqrt{k}}\right) = \bar{x} \pm 1.96 \cdot \left(\frac{s}{\sqrt{5}}\right)$$
+$$IC\ 95\% = \bar{x} \pm z_{\alpha/2} \cdot \left(\frac{s}{\sqrt{k}}\right) = \bar{x} \pm 1.96 \cdot \left(\frac{s}{\sqrt{5}}\right)$$
 
-* **Recall Promedio:** $\mathbf{0.8435}$ | Desviación Estándar ($s$): $0.0179$ | **$IC_{95\%}: [0.8278, 0.8591]$**
-* **F1-Score Promedio:** $\mathbf{0.6085}$ | Desviación Estándar ($s$): $0.0182$ | **$IC_{95\%}: [0.5925, 0.6245]$**
-* **AUC-ROC Promedio:** $\mathbf{0.9289}$ | Desviación Estándar ($s$): $0.0237$ | **$IC_{95\%}: [0.9081, 0.9497]$**
-* **Accuracy Promedio:** $\mathbf{0.8663}$ | Desviación Estándar ($s$): $0.0086$ | **$IC_{95\%}: [0.8587, 0.8738]$**
+* **Recall Promedio:** $\mathbf{0.8435}$ | Desviación Estándar ($s$): $0.0179$ | **IC 95%: $[0.8278, 0.8591]$**
+* **F1-Score Promedio:** $\mathbf{0.6085}$ | Desviación Estándar ($s$): $0.0182$ | **IC 95%: $[0.5925, 0.6245]$**
+* **AUC-ROC Promedio:** $\mathbf{0.9289}$ | Desviación Estándar ($s$): $0.0237$ | **IC 95%: $[0.9081, 0.9497]$**
+* **Accuracy Promedio:** $\mathbf{0.8663}$ | Desviación Estándar ($s$): $0.0086$ | **IC 95%: $[0.8587, 0.8738]$**
 
 ### 6.4 Análisis de Estabilidad y Varianza
 La baja desviación estándar en todas las métricas ($s < 0.025$) y los intervalos de confianza estrechos demuestran que:
