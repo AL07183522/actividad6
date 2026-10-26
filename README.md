@@ -6,8 +6,6 @@
 
 ---
 
-# README - FraudShield AI: Evaluación, Validación y Despliegue de Modelos de Clasificación
-
 ### Declaración del uso de herramientas de inteligencia artificial
 
 - **Herramientas:** Gemini, Google Colab y VS Code con Copilot.
