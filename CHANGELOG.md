@@ -291,15 +291,3 @@ Para garantizar la operación ética, transparente y confiable del modelo en pro
 4. **Recomendación Ejecutiva:** Se aprueba el pase a producción del Modelo B (*Random Forest*, $t = 0.35$) para el 100% del tráfico transaccional bancario, integrando el pipeline de monitoreo continuo y registro de experimentos en el tablero visual de Trello.
 
 ---
-
-## 11. Autoevaluación contra la Rúbrica de la Actividad 6 (`Rubrica_Act6.pdf`)
-
-A continuación se presenta la matriz de evaluación formal conforme a los cuatro criterios de la rúbrica oficial, justificando el nivel **Altamente Competente (Puntaje Máximo: 100/100)**:
-
-| Criterio de la Rúbrica | Ponderación | Nivel de Desempeño Demostrado | Justificación Técnica Específica del Cumplimiento | Puntos Obtenidos |
-| :--- | :---: | :---: | :--- | :---: |
-| **1. Definición del problema, uso de matriz y métricas** | **25%** | **Altamente Competente (25 - 21 pts)** | Define con total claridad el problema financiero de detección de fraude en banca digital; establece un objetivo SMART riguroso; construye y desglosa e interpreta en profundidad la matriz de confusión (VP, FP, FN, VN); calcula y fundamenta las métricas (Accuracy, Precision, Recall, F1) desmitificando la paradoja de la exactitud según el contexto asimétrico del negocio. | **25 / 25** |
-| **2. Evaluación del modelo (matriz de confusión, métricas, ROC, AUC, umbral)** | **25%** | **Altamente Competente (25 - 21 pts)** | Construye la matriz de confusión multiescenario; calcula y compara todas las métricas en un rango amplio de umbrales (0.10 a 0.80); ajusta y optimiza el umbral de decisión justificándolo con funciones de costo financiero ($FN = $1500, $FP = $25); explica e interpreta matemáticamente la curva ROC y el valor de AUC ($0.9200$) con coordenadas TPR y FPR. | **25 / 25** |
-| **3. Validación y comparación de modelos** | **25%** | **Altamente Competente (25 - 21 pts)** | Aplica rigurosamente validación cruzada estratificada (Stratified 5-Fold) con cálculo de medias, desviaciones estándar e intervalos de confianza al 95%; compara contra baselines nulo (Dummy) y lineal (LogReg); analiza formalmente la significancia estadística mediante prueba de hipótesis z ($p < 10^{-18}$); y diferencia con precisión conceptual y metodológica la validación cruzada (offline) frente al A/B testing (online). | **25 / 25** |
-| **4. Integración, justificación técnica y presentación de resultados** | **25%** | **Altamente Competente (25 - 21 pts)** | Justifica exhaustivamente cada decisión técnica basándose en el impacto financiero y operativo del negocio bancario; conecta las métricas con ROI, pérdida evitada y mitigación de fricción; y presenta los resultados de forma visual, estructurada y organizada en el reporte, notebook ejecutable y el tablero de resultados en formato Trello. | **25 / 25** |
-| **CALIFICACIÓN TOTAL** | **100%** | **ALTAMENTE COMPETENTE** | **Cumplimiento exhaustivo, riguroso e integral de todos los lineamientos y entregables.** | **100 / 100** |
