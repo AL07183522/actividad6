@@ -97,7 +97,7 @@ $$\text{Costo Total} = (\text{FN} \times \$1,500) + (\text{FP} \times \$25)$$
 * **Configuración:** `StratifiedKFold(n_splits=5, shuffle=True, random_state=42)`.
 * **Métricas Evaluadas por Pliegue:** Recall, Precision, F1-Score y AUC-ROC a umbral óptimo calibrado.
 * **Inferencia Estadística:** Cálculo de media muestral ($\mu$), desviación estándar ($\sigma$) e Intervalo de Confianza al 95%:
-  $$\text{IC}_{95\%} = \bar{x} \pm 1.96 \left(\frac{s}{\sqrt{k}}\right)$$
+  $$\text{IC 95\%} = \bar{x} \pm 1.96 \left(\frac{s}{\sqrt{k}}\right)$$
 
 ### 4.4. Diseño de Pruebas A/B en Producción
 * **Población del Experimento:** 10,000 transacciones bancarias en vivo durante 14 días.
