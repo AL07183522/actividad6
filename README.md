@@ -151,15 +151,9 @@ $$\text{Costo Total} = (\text{FN} \times \$1,500) + (\text{FP} \times \$25)$$
 
 ## 7. Instrucciones para Ejecutar los Experimentos
 
-### Ejecución del Script Python
-Para reproducir de principio a fin los datos sintéticos, entrenamiento, cálculo de matrices, optimización de umbrales, validación cruzada y simulación A/B:
-```bash
-python experimentacion_actividad6.py
-```
-
 ### Ejecución del Jupyter Notebook
 Para interactuar visualmente con las celdas, gráficos y tablas paso a paso:
 ```bash
-jupyter notebook experimentacion_actividad6.ipynb
+jupyter notebook GP_Actividad6.ipynb
 ```
 O bien abrir el archivo en **Google Colab**, **VS Code** o **JupyterLab** y seleccionar `Run All Cells`.
