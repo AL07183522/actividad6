@@ -1,5 +1,4 @@
-# Materia: Gestión de Proyectos de Inteligencia Artificial
-**Actividad:** 5
+**Actividad:** 6
 **Alumno(a):** Manuel de Jesus Ramiro Velázquez Tapia  
 **Matrícula:** AL07183522  
 **Docente:** Luis Ariel Vazquez Piña  
